@@ -32,3 +32,17 @@ a {
   /* color-scheme: light !important; */
   background-color: #0f1112;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #111826;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0070f3;
+  border-radius: 5px;
+  border: 2px solid #111826;
+}
