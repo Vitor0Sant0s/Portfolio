@@ -21,7 +21,7 @@ function Projetos(){
           background='https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'/>
       </div>
 
-      <div>
+      <div className="repo">
         <a href="https://github.com/Vitor0Sant0s?tab=repositories">Repositorios no GitHub</a>
       </div>
       

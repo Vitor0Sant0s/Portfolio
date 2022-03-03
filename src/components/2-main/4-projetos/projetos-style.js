@@ -61,6 +61,11 @@ export const ProjcStyle = styled.div`
       }
     }
 
+    .repo{
+      width: 100%;
+      text-align: center;
+    }
+
   }
 
   @media screen and (max-width: 860px){
