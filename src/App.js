@@ -1,16 +1,16 @@
-import { Container } from './components/container-styles'
-import Header from './components/1-header/Header';
-import Main from './components/2-main/Main';
-import Footer from './components/3-footer/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home';
+import PageNotFound from './Pages/pageNotFound';
 
 
 function App() {
   return (
-    <Container>
-      <Header/>
-      <Main/>
-      <Footer/>
-    </Container>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='*' element={<PageNotFound/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

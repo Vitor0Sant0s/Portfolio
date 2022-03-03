@@ -9,13 +9,13 @@ function Footer(){
       <h3>© 2022 Vitor Oliveira</h3>
       <div>
         <a href="https://www.instagram.com/hugo_mos" target="_blank" rel="noopener noreferrer">
-          <CgInstagram color='white'/>
+          <CgInstagram />
         </a>
         <a href="https://www.linkedin.com/in/Vitor0Sant0s" target="_blank" rel="noopener noreferrer">
-          <AiOutlineLinkedin color='white'/>
+          <AiOutlineLinkedin/>
         </a>
         <a href="https://www.github.com/Vitor0Sant0s" target="_blank" rel="noopener noreferrer">
-          <AiFillGithub color=' white'/>
+          <AiFillGithub />
         </a>
       </div>
     </Rodape>

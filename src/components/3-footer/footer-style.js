@@ -22,6 +22,18 @@ export const Rodape = styled.footer`
     width: 200px;
   }
 
+  h3{
+    color: #DCE2F2;
+  }
+
+  a{
+    color: #D3d3d3;
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover{
+    color: #F2F2F2;
+  }
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
     gap: 3rem;
