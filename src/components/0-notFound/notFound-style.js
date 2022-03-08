@@ -26,4 +26,16 @@ export const Notfound = styled.div`
     color:#0070F3;
     font-size: 54px;
   }
+
+  div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    text-decoration: none;
+
+    padding: 0.5em;
+
+    border-bottom: 2px solid #0070F3;
+  }
 `

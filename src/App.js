@@ -1,16 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './Pages/Home';
-import PageNotFound from './Pages/pageNotFound';
-
+import { BrowserRouter as Router } from "react-router-dom";
+import Rotas from "./routes/Rotas";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='*' element={<PageNotFound/>}/>
-      </Routes>
-    </BrowserRouter>
+    <Router>
+      <Rotas/>
+    </Router>
   );
 }
 
