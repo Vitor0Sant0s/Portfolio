@@ -8,6 +8,7 @@ function Rotas(){
   return(
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/404' element={<PageNotFound/>}/>
       <Route path='*' element={<PageNotFound/>}/>
     </Routes>
   )
