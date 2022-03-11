@@ -12,6 +12,8 @@ export const CardStyle = styled.div`
 
   background-color:#212425;
 
+  overflow: hidden;
+
   img{
     height: 150px;
     width: 100%;
@@ -19,6 +21,16 @@ export const CardStyle = styled.div`
     object-fit: cover;
 
     border-radius: 8px 8px 0 0 ;
+
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.4s linear;
+  }
+
+  img:hover{
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
   }
 
   div{
