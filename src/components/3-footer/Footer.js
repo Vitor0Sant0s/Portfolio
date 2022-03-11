@@ -6,7 +6,7 @@ import { AiFillGithub } from 'react-icons/ai';
 function Footer(){
   return(
     <Rodape>
-      <h3>© 2022 Vitor Oliveira</h3>
+      <h3>©2022 Vitor Oliveira</h3>
       <div>
         <a href="https://www.instagram.com/hugo_mos" target="_blank" rel="noopener noreferrer">
           <CgInstagram />

@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const Stacks = styled.div`
+export const Stacks = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
   gap: 4rem;
 
-  padding: 4rem 5rem;
+  padding: 0rem 5rem 4rem;
 
   height: auto;
 

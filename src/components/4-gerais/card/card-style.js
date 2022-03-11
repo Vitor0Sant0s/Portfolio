@@ -21,7 +21,6 @@ export const Cardstyle = styled.div`
 
   div{
     
-
     h3{
       padding: 0.5rem 1rem;
     }

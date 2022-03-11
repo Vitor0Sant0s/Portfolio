@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Heroarea = styled.div`
+export const Heroarea = styled.section`
 
   display: flex;
   flex-direction: column;
