@@ -26,19 +26,19 @@ function Projetos(){
 
         <CardS
           src={github}
-          to='/'
+          to='/projetos'
           title='Em breve'
           description='Pegue um energetico e espere um pouco, estou trabalhando nisso'
         />
         <CardS
           src={instagram}
-          to='/'
+          to='/projetos'
           title='Em breve'
           description='Pegue um energetico e espere um pouco, estou trabalhando nisso'
         />
         <CardS
           src={twitter}
-          to='/'
+          to='/projetos'
           title='Em breve'
           description='Pegue um energetico e espere um pouco, estou trabalhando nisso'
         />
