@@ -5,7 +5,7 @@ function Hero(){
     <Heroarea>
       <span>Ei, eu sou</span>
       <span>Vitor Oliveira</span>
-      <span>Desenvolvedor Front-end<br />que também é apaixonado por tecnologia.</span>
+      <span>Desenvolvedor Web<br />que também é apaixonado por tecnologia.</span>
       <span>Jaboticabal, Brasil</span>
     </Heroarea>
   )

@@ -9,7 +9,7 @@ function Sobre(){
         <Titulo>Sobre mim <span>.</span></Titulo>
         <p>
           Prazer, sou Vitor Oliveira. Sou
-          freelancer como Front-end developer e UI Designer. Desenvolvo interfaces
+          freelancer como Web developer e UI Designer. Desenvolvo interfaces
           modernas e de alta qualidade, concentrado em performance, responsividade 
           e SEO.
         </p>

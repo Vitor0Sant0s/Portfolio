@@ -3,6 +3,7 @@ import React from "react";
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
+import { DiPython } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
 import { SiStyledcomponents } from "react-icons/si";
 
@@ -17,6 +18,19 @@ function Conhecimentos(){
   return(
     <Stacks>
       <Titulo>Conhecimentos <span>.</span></Titulo>
+
+      <Textstack> 
+        <div>
+          <Subtitulo borderColor={'#3072AA'}>Python</Subtitulo>
+          <p>
+            Python é uma linguagem de programação dinâmica, multiplataforma, utilizada desde machine learning até web.
+          </p>
+        </div>
+
+        <Icon color={'#3072AA'}>
+          <DiPython/>
+        </Icon>
+      </Textstack>
       
       <Textstack> 
         <div>
